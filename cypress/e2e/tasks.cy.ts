@@ -1,20 +1,20 @@
 import { levels } from '../fixtures/levels';
 
-describe('Flexbox Froggy', () => {
+describe('Grid Garden', () => {
   it('Should open page', () => {
-    cy.visit('https://cssgridgarden.com/#ru');
+    cy.visit('https://cssgridgarden.com/#en');
     cy.get('.title').should('contain', 'Grid Garden');
   });
 
   const testLevel = (levelNumber) => {
-    cy.visit('https://flexboxfroggy.com');
+    cy.visit('https://cssgridgarden.com/#en');
     cy.get('#level-indicator').click();
     cy.get(`.level-marker[data-level="${levelNumber}"]`).click();
     cy.get('#editor textarea').type(levels[levelNumber].join('\n'));
     cy.get('#next').should('not.have.class', 'disabled');
   };
 
-  it.skip('Should validate first task', () => {
+  it('Should validate first task', () => {
     testLevel(0);
   });
 
