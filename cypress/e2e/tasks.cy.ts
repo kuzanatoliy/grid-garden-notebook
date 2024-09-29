@@ -86,7 +86,7 @@ describe('Grid Garden', () => {
     testLevel(17);
   });
 
-  it.skip('Should validate nineteenth task', () => {
+  it('Should validate nineteenth task', () => {
     testLevel(18);
   });
 

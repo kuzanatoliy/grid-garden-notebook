@@ -17,4 +17,5 @@ export const levels = [
   ['grid-area: 1 / 2 / 4 / 6;'],
   ['grid-area: 2 / 3 / 5 / 6;'],
   ['order: 1;'],
+  ['order: -1;'],
 ];
