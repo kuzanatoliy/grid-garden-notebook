@@ -20,4 +20,5 @@ export const levels = [
   ['order: -1;'],
   ['grid-template-columns: 50%;'],
   ['grid-template-columns: repeat(8, 12.5%);'],
+  ['grid-template-columns: 100px 3em 40%;'],
 ];
