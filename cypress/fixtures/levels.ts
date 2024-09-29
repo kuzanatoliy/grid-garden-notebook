@@ -18,4 +18,5 @@ export const levels = [
   ['grid-area: 2 / 3 / 5 / 6;'],
   ['order: 1;'],
   ['order: -1;'],
+  ['grid-template-columns: 50%;'],
 ];
