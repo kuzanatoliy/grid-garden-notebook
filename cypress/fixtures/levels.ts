@@ -23,4 +23,5 @@ export const levels = [
   ['grid-template-columns: 100px 3em 40%;'],
   ['grid-template-columns: 1fr 5fr;'],
   ['grid-template-columns: 50px 1fr 1fr 1fr 50px;'],
+  ['grid-template-columns: 75px 3fr 2fr;'],
 ];

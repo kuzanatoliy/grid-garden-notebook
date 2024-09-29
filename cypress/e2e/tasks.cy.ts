@@ -109,4 +109,8 @@ describe('Grid Garden', () => {
   it('Should validate twenty fourth task', () => {
     testLevel(23);
   });
+
+  it('Should validate twenty fifth task', () => {
+    testLevel(24);
+  });
 });
