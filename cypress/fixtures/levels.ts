@@ -5,4 +5,5 @@ export const levels = [
   ['grid-column-end: 2;'],
   ['grid-column-end: -2;'],
   ['grid-column-start: 4;'],
+  ['grid-column-end: span 2;'],
 ];
