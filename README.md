@@ -1,6 +1,6 @@
-# flexbox-froggy-notebook
+# grid-garden-notebook
 
-List of `...`
+List of [Grid garden levels](https://flexboxfroggy.com/#en)
 
 **Note:** solution could be found [here](SOLUTIONS.md)
 
