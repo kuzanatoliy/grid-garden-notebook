@@ -11,4 +11,5 @@ export const levels = [
   ['grid-column: 4 / 6;'],
   ['grid-column: 2 / 5;'],
   ['grid-row-start: 3;'],
+  ['grid-row: 3 / 6;'],
 ];
